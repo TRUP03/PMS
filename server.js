@@ -10,6 +10,9 @@ app.get('/',(req,res)=>{
 app.get('/display',(req,res)=>{
     res.render('display');
 });
+app.get('/add',(req,res)=>{
+    res.render('Add');
+});
 
 app.listen(3000,()=>{
     console.log("server started");

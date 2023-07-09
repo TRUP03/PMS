@@ -1,0 +1,11 @@
+.add{
+    width: 60%;
+    margin: 15%;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 12px;
+}
+.btn{
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+    color: aliceblue;
+}
