@@ -109,3 +109,11 @@ taskInput.addEventListener("keyup", (e) => {
     showTodo(document.querySelector("span.active").id);
   }
 });
+
+function openpopup(currelement){
+  currelement.parentElement.children[1].classList.add("open-popup")
+ }
+ function closepopup(currelement){
+  currelement.parentElement.classList.remove("open-popup");
+ }
+
