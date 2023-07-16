@@ -13,6 +13,9 @@ app.get('/display',(req,res)=>{
 app.get('/add',(req,res)=>{
     res.render('Add');
 });
+app.get('/register',(req,res)=>{
+    res.render('register');
+});
 
 app.listen(3000,()=>{
     console.log("server started");

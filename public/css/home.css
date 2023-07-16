@@ -178,7 +178,7 @@ body {
 }
 
 form {
-  height: 520px;
+  min-height: 520px;
   width: 400px;
   background-color: rgba(255, 255, 255, 0.13);
   /* position: absolute;
@@ -208,16 +208,16 @@ form h3 {
 }
 
 label {
-  display: block;
+  /* display: block; */
   margin-top: 30px;
   font-size: 16px;
   font-weight: 500;
 }
 
 input {
-  display: block;
+  /* display: block; */
   height: 50px;
-  width: 100%;
+  width: 80%;
   background-color: rgba(255, 255, 255, 0.07);
   border-radius: 3px;
   padding: 0 10px;
@@ -237,12 +237,18 @@ input {
   color: #07070a;
   padding: 15px 0;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 5px;
   cursor: pointer;
 }
 button{
   color: #07070a;
+  width: 30%;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .social {
   margin-top: 30px;

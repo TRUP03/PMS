@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DailyTrack</title>
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/register.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -21,28 +22,30 @@ of Simple CSS Waves-->
 
         <!--Content before waves-->
         <div class="inner-box">
-            <div class="inner-header flex">
-                <h1>Project Management System</h1>
-                <h2>make ans track your project by using this web app</h2>
-            </div>
             <div class="form">
                 <form>
-                    <h3>Login Here</h3>
-            
+                    <h3>Register Here</h3>
+
+                    <label for="fullname">Fullname : </label>
+                    <input type="text" placeholder="Email or Phone" id="fullname">
+
+                    <label for="username">Email : </label>
+                    <input type="text" placeholder="Email or Phone" id="username">
+
                     <label for="username">Username</label>
                     <input type="text" placeholder="Email or Phone" id="username">
             
-                    <label for="password">Password</label>
+                    <label for="password">Password : </label>
                     <input type="password" placeholder="Password" id="password">
                     <div class="button"> 
-                        log In
+                        <button type="submit">
+                            Register
+                        </button>
                     </div>
-                    <a href="/register">Not a member? register</a>
-                    <a href="/display"> hello</a>
-                    <div class="social">
+                    <!-- <div class="social">
                         <div class="go"><i class="fab fa-google"></i> Google</div>
                         <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
-                    </div>
+                    </div> -->
                 </form>
             </div>
         </div>
